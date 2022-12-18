@@ -1,0 +1,53 @@
+opt_in_rules:
+- array_init
+- closure_body_length
+- closure_end_indentation
+- collection_alignment
+- contains_over_filter_count
+- contains_over_filter_is_empty
+- contains_over_first_not_nil
+- contains_over_range_nil_comparison
+- empty_collection_literal
+- empty_count
+- operator_usage_whitespace
+- private_action
+- private_outlet
+- unused_import
+- unused_declaration
+- vertical_parameter_alignment_on_call
+- vertical_whitespace_opening_braces
+- vertical_whitespace_closing_braces
+disabled_rules:
+- trailing_whitespace
+- nesting
+- identifier_name
+excluded:
+- Carthage
+- Pods
+- BucksMe/Resources/ConfigurationFiles/R.generated.swift
+
+type_name:
+    min_length: 2
+    max_length: 60
+    
+identifier_name:
+    min_length: 2
+    max_length: 40
+
+type_body_length:
+    warning: 400
+    error: 600
+
+file_length:
+    warning: 600
+    error: 1200
+
+function_body_length:
+    warning: 60
+    error: 120
+
+line_length:
+    warning: 150
+    error: 200
+
+warning_threshold: 20

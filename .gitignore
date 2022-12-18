@@ -1,0 +1,16 @@
+/Pods/
+xcuserdata
+*/xcuserdata/
+*.xcworkspac/
+/*.xcworkspace
+/*.xcworkspace/
+/*.xcworkspacedata
+*.DS_Store
+/Release/
+/AppStore/
+/*.ipa
+/*.dSYM.zip
+/fastlane/README.md
+/fastlane/report.xml
+/fastlane/screenshots
+/SnapshotDerivedData
