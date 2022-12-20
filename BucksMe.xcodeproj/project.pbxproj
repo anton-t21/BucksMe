@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		7E2DCD5A294F538C00DC3273 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2DCD59294F538C00DC3273 /* R.generated.swift */; };
+		7E3A5A7329522CE400A47034 /* MainAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3A5A7229522CE400A47034 /* MainAppView.swift */; };
+		7E3A5A7529522CF000A47034 /* MainAppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3A5A7429522CF000A47034 /* MainAppViewModel.swift */; };
+		7E3A5A7729522D6700A47034 /* MainAppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3A5A7629522D6700A47034 /* MainAppState.swift */; };
+		7E3A5A7C2952313F00A47034 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3A5A7B2952313F00A47034 /* LoginView.swift */; };
+		7E3A5A9D2959B98800A47034 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E3A5A9A2959B5A300A47034 /* Lato-Regular.ttf */; };
+		7E3A5A9F2959BE9100A47034 /* FontResourceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3A5A9E2959BE9100A47034 /* FontResourceExtension.swift */; };
+		7E3A5AA22959CC7300A47034 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3A5AA12959CC7300A47034 /* TextFieldView.swift */; };
+		7E3A5AA42959FA7700A47034 /* LoginSeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3A5AA32959FA7700A47034 /* LoginSeparatorView.swift */; };
+		7E3A5AA6295A09B700A47034 /* LoginButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3A5AA5295A09B700A47034 /* LoginButtonView.swift */; };
 		7EF29D32294E242D00FF3CAC /* BucksMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF29D31294E242D00FF3CAC /* BucksMeApp.swift */; };
 		7EF29D34294E242D00FF3CAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF29D33294E242D00FF3CAC /* ContentView.swift */; };
 		7EF29D36294E242E00FF3CAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EF29D35294E242E00FF3CAC /* Assets.xcassets */; };
@@ -19,6 +28,16 @@
 		15738D9358A004FF677AB98F /* Pods-BucksMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BucksMe.debug.xcconfig"; path = "Target Support Files/Pods-BucksMe/Pods-BucksMe.debug.xcconfig"; sourceTree = "<group>"; };
 		30E2F0D0DBB0085AA07F9A08 /* Pods-BucksMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BucksMe.release.xcconfig"; path = "Target Support Files/Pods-BucksMe/Pods-BucksMe.release.xcconfig"; sourceTree = "<group>"; };
 		7E2DCD59294F538C00DC3273 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		7E3A5A7229522CE400A47034 /* MainAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppView.swift; sourceTree = "<group>"; };
+		7E3A5A7429522CF000A47034 /* MainAppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppViewModel.swift; sourceTree = "<group>"; };
+		7E3A5A7629522D6700A47034 /* MainAppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppState.swift; sourceTree = "<group>"; };
+		7E3A5A7B2952313F00A47034 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7E3A5A942958895000A47034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7E3A5A9A2959B5A300A47034 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		7E3A5A9E2959BE9100A47034 /* FontResourceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontResourceExtension.swift; sourceTree = "<group>"; };
+		7E3A5AA12959CC7300A47034 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		7E3A5AA32959FA7700A47034 /* LoginSeparatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSeparatorView.swift; sourceTree = "<group>"; };
+		7E3A5AA5295A09B700A47034 /* LoginButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonView.swift; sourceTree = "<group>"; };
 		7EF29D2E294E242D00FF3CAC /* BucksMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucksMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EF29D31294E242D00FF3CAC /* BucksMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucksMeApp.swift; sourceTree = "<group>"; };
 		7EF29D33294E242D00FF3CAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +61,7 @@
 		7E2DCD56294F517500DC3273 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7E3A5A9129587D9000A47034 /* Fonts */,
 				7E2DCD57294F518600DC3273 /* ConfigurationFiles */,
 			);
 			path = Resources;
@@ -53,6 +73,77 @@
 				7E2DCD59294F538C00DC3273 /* R.generated.swift */,
 			);
 			path = ConfigurationFiles;
+			sourceTree = "<group>";
+		};
+		7E3A5A7029522CA300A47034 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7E3A5A782952301A00A47034 /* LoginView */,
+				7E3A5A7129522CD300A47034 /* MainAppView */,
+				7EF29D33294E242D00FF3CAC /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7E3A5A7129522CD300A47034 /* MainAppView */ = {
+			isa = PBXGroup;
+			children = (
+				7E3A5A7229522CE400A47034 /* MainAppView.swift */,
+				7E3A5A7429522CF000A47034 /* MainAppViewModel.swift */,
+				7E3A5A7629522D6700A47034 /* MainAppState.swift */,
+			);
+			path = MainAppView;
+			sourceTree = "<group>";
+		};
+		7E3A5A782952301A00A47034 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				7E3A5AA02959CBFB00A47034 /* Subview */,
+				7E3A5A7B2952313F00A47034 /* LoginView.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		7E3A5A9129587D9000A47034 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7E3A5A9A2959B5A300A47034 /* Lato-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7E3A5A9529588A8700A47034 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7E3A5A9629588A8D00A47034 /* Etensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7E3A5A9629588A8D00A47034 /* Etensions */ = {
+			isa = PBXGroup;
+			children = (
+				7E3A5A9729588A9500A47034 /* Fonts */,
+			);
+			path = Etensions;
+			sourceTree = "<group>";
+		};
+		7E3A5A9729588A9500A47034 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7E3A5A9E2959BE9100A47034 /* FontResourceExtension.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7E3A5AA02959CBFB00A47034 /* Subview */ = {
+			isa = PBXGroup;
+			children = (
+				7E3A5AA12959CC7300A47034 /* TextFieldView.swift */,
+				7E3A5AA32959FA7700A47034 /* LoginSeparatorView.swift */,
+				7E3A5AA5295A09B700A47034 /* LoginButtonView.swift */,
+			);
+			path = Subview;
 			sourceTree = "<group>";
 		};
 		7EF29D25294E242D00FF3CAC = {
@@ -76,9 +167,11 @@
 		7EF29D30294E242D00FF3CAC /* BucksMe */ = {
 			isa = PBXGroup;
 			children = (
+				7E3A5A9529588A8700A47034 /* Utils */,
+				7E3A5A7029522CA300A47034 /* Views */,
 				7E2DCD56294F517500DC3273 /* Resources */,
 				7EF29D31294E242D00FF3CAC /* BucksMeApp.swift */,
-				7EF29D33294E242D00FF3CAC /* ContentView.swift */,
+				7E3A5A942958895000A47034 /* Info.plist */,
 				7EF29D35294E242E00FF3CAC /* Assets.xcassets */,
 				7EF29D37294E242E00FF3CAC /* Preview Content */,
 			);
@@ -174,6 +267,7 @@
 			files = (
 				7EF29D39294E242E00FF3CAC /* Preview Assets.xcassets in Resources */,
 				7EF29D36294E242E00FF3CAC /* Assets.xcassets in Resources */,
+				7E3A5A9D2959B98800A47034 /* Lato-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,9 +358,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E3A5A7729522D6700A47034 /* MainAppState.swift in Sources */,
+				7E3A5A7C2952313F00A47034 /* LoginView.swift in Sources */,
 				7EF29D34294E242D00FF3CAC /* ContentView.swift in Sources */,
+				7E3A5A9F2959BE9100A47034 /* FontResourceExtension.swift in Sources */,
+				7E3A5A7329522CE400A47034 /* MainAppView.swift in Sources */,
 				7EF29D32294E242D00FF3CAC /* BucksMeApp.swift in Sources */,
+				7E3A5AA42959FA7700A47034 /* LoginSeparatorView.swift in Sources */,
 				7E2DCD5A294F538C00DC3273 /* R.generated.swift in Sources */,
+				7E3A5AA6295A09B700A47034 /* LoginButtonView.swift in Sources */,
+				7E3A5A7529522CF000A47034 /* MainAppViewModel.swift in Sources */,
+				7E3A5AA22959CC7300A47034 /* TextFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,7 +501,8 @@
 				DEVELOPMENT_TEAM = VH7M9GNHKJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "";
+				INFOPLIST_FILE = BucksMe/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -431,7 +534,8 @@
 				DEVELOPMENT_TEAM = VH7M9GNHKJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "";
+				INFOPLIST_FILE = BucksMe/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

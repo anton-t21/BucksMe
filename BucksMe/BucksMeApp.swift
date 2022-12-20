@@ -11,7 +11,7 @@ import SwiftUI
 struct BucksMeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainAppView(viewModel: .init())
         }
     }
 }

@@ -12,23 +12,95 @@ let R = _R(bundle: Bundle(for: BundleFinder.self))
 struct _R {
   let bundle: Foundation.Bundle
   var color: color { .init(bundle: bundle) }
+  var image: image { .init(bundle: bundle) }
+  var font: font { .init(bundle: bundle) }
+  var file: file { .init(bundle: bundle) }
 
   func color(bundle: Foundation.Bundle) -> color {
     .init(bundle: bundle)
   }
+  func image(bundle: Foundation.Bundle) -> image {
+    .init(bundle: bundle)
+  }
+  func font(bundle: Foundation.Bundle) -> font {
+    .init(bundle: bundle)
+  }
+  func file(bundle: Foundation.Bundle) -> file {
+    .init(bundle: bundle)
+  }
   func validate() throws {
-
+    try self.font.validate()
   }
 
   struct project {
     let developmentRegion = "en"
   }
 
-  /// This `_R.color` struct is generated, and contains static references to 1 colors.
+  /// This `_R.color` struct is generated, and contains static references to 9 colors.
   struct color {
     let bundle: Foundation.Bundle
 
     /// Color `AccentColor`.
     var accentColor: RswiftResources.ColorResource { .init(name: "AccentColor", path: [], bundle: bundle) }
+
+    /// Color `Green`.
+    var green: RswiftResources.ColorResource { .init(name: "Green", path: [], bundle: bundle) }
+
+    /// Color `Primary`.
+    var primary: RswiftResources.ColorResource { .init(name: "Primary", path: [], bundle: bundle) }
+
+    /// Color `PrimaryLight`.
+    var primaryLight: RswiftResources.ColorResource { .init(name: "PrimaryLight", path: [], bundle: bundle) }
+
+    /// Color `Red`.
+    var red: RswiftResources.ColorResource { .init(name: "Red", path: [], bundle: bundle) }
+
+    /// Color `Secondary`.
+    var secondary: RswiftResources.ColorResource { .init(name: "Secondary", path: [], bundle: bundle) }
+
+    /// Color `Text`.
+    var text: RswiftResources.ColorResource { .init(name: "Text", path: [], bundle: bundle) }
+
+    /// Color `Text30`.
+    var text30: RswiftResources.ColorResource { .init(name: "Text30", path: [], bundle: bundle) }
+
+    /// Color `White`.
+    var white: RswiftResources.ColorResource { .init(name: "White", path: [], bundle: bundle) }
+  }
+
+  /// This `_R.image` struct is generated, and contains static references to 2 images.
+  struct image {
+    let bundle: Foundation.Bundle
+
+    /// Image `facebook_icon`.
+    var facebook_icon: RswiftResources.ImageResource { .init(name: "facebook_icon", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
+
+    /// Image `google_icon`.
+    var google_icon: RswiftResources.ImageResource { .init(name: "google_icon", path: [], bundle: bundle, locale: nil, onDemandResourceTags: nil) }
+  }
+
+  /// This `_R.font` struct is generated, and contains static references to 1 fonts.
+  struct font: Sequence {
+    let bundle: Foundation.Bundle
+
+    /// Font `Lato-Regular`.
+    var latoRegular: RswiftResources.FontResource { .init(name: "Lato-Regular", bundle: bundle, filename: "Lato-Regular.ttf") }
+
+    func makeIterator() -> IndexingIterator<[RswiftResources.FontResource]> {
+      [latoRegular].makeIterator()
+    }
+    func validate() throws {
+      for font in self {
+        if !font.canBeLoaded() { throw RswiftResources.ValidationError("[R.swift] Font '\(font.name)' could not be loaded, is '\(font.filename)' added to the UIAppFonts array in this targets Info.plist?") }
+      }
+    }
+  }
+
+  /// This `_R.file` struct is generated, and contains static references to 1 resource files.
+  struct file {
+    let bundle: Foundation.Bundle
+
+    /// Resource file `Lato-Regular.ttf`.
+    var latoRegularTtf: RswiftResources.FileResource { .init(name: "Lato-Regular", pathExtension: "ttf", bundle: bundle, locale: LocaleReference.none) }
   }
 }
